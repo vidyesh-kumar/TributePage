@@ -15,15 +15,39 @@ html {
     font-size: 4rem;
     margin-bottom: 0;
   }
+
+  ul {
+    max-width: 550px;
+    margin: 0 auto 50px auto;
+    text-align: left;
+    line-height: 1.6;
+  }
   
-  @media (max-width: 460px) {
+  li {
+    margin: 5px 0;
+  }
+  
+  @media (max-width: 600px) {
     h1 {
       font-size: 3.5rem;
       line-height: 1.2;
     }
-   
+    .carousel-indicators{
+      position: absolute;
+      margin: 1px;
+    }
+    ol {
+      margin-block-start: 2px;
+      margin-block-end: 2px;
+      margin-inline-start: 0px;
+      margin-inline-end: 0px;
+      padding-inline-start: 20px;
   }
-  
+  li{
+      margin : 5px 0;
+  }
+}
+
   h2 {
     font-size: 3.25rem;
   }
@@ -73,16 +97,6 @@ html {
     font-size: x-large;
   }
   
-  ul {
-    max-width: 550px;
-    margin: 0 auto 50px auto;
-    text-align: left;
-    line-height: 1.6;
-  }
-  
-  li {
-    margin: 16px 0;
-  }
   
   blockquote {
     font-style: italic;
