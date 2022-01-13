@@ -25,3 +25,4 @@ function MClick(id) {
       x.style.fontSize = "medium";
     }
   }
+
