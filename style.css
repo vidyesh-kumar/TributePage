@@ -23,6 +23,10 @@ html {
     font-size:x-large;
     font-weight: bold;
     margin: 10px;
+    opacity:0.85;
+  }
+  summary:hover{
+    opacity:1;
   }
   h1 {
     font-size: 4rem;
