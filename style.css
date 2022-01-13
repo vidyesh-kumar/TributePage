@@ -80,7 +80,13 @@ html {
       margin : 5px 0;
   }
   table{
-  box-shadow: 5px 5px 50px gray;
+  box-shadow: 5px 5px 25px gray;
+  }
+  summary{
+    font-size:medium;
+  }
+  summary:hover{
+    font-size:large;
   }
 }
 
@@ -127,7 +133,7 @@ html {
     table {
       max-width: 100%;
       font-size: small;
-      box-shadow: 5px 5px 50px gray;
+      box-shadow: 5px 5px 25px gray;
     }
   }
   
