@@ -10,3 +10,10 @@ function MOut(id)
     document.getElementsByClassName(id)[i].style.fontWeight="normal";
 }
 }
+function MClick(id) {
+    let x=document.getElementById(id)
+    if (x.style.fontSize != "xx-large") 
+      x.style.fontSize = "xx-large";
+    else 
+      x.style.fontSize = "x-large";
+  }
