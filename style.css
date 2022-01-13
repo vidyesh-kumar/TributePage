@@ -84,6 +84,7 @@ html {
   }
   summary{
     font-size:medium;
+    margin:5px;
   }
   summary:hover{
     font-size:large;

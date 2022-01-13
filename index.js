@@ -12,8 +12,16 @@ function MOut(id)
 }
 function MClick(id) {
     let x=document.getElementById(id)
-    if (x.style.fontSize != "xx-large") 
+    if(window.innerWidth>=800)
+    {if (x.style.fontSize != "xx-large") 
       x.style.fontSize = "xx-large";
     else 
       x.style.fontSize = "x-large";
+    }
+    else
+    {if (x.style.fontSize != "large") 
+      x.style.fontSize = "large";
+    else 
+      x.style.fontSize = "medium";
+    }
   }
