@@ -1,5 +1,4 @@
 const projectName = 'tribute-page';
-alert(window.innerWidth)
 if(window.innerWidth>1000)
 { let ele=document.getElementsByClassName('resp');
   for(let i=0;i<ele.length;i++)
