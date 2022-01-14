@@ -79,7 +79,7 @@ html {
     font-size: x-large;
   }
   #main {
-    margin-top: 80px;
+    padding-top: 100px;
   }
   @media (max-width: 800px) {
     h1 {
